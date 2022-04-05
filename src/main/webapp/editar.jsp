@@ -10,7 +10,7 @@
         <title>JSP Page</title>
     </head>
     <body>
-        <h1><%= (item.getId() == 0)? "Nuevo registro" : "Editar registro" %></h1>
+        <h1><%= (item.getId() == 0)? "Nuevo producto" : "Editar producto" %></h1>
         <form action="MainController" method="post">
             <input type="hidden" name="id" value="<%= item.getId()%>"/>
             <table>
